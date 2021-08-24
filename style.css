@@ -60,9 +60,6 @@ body {
 
 #minha_foto {
   margin: 20px;
-  border: 2px double rgb(154, 132, 99);
-  box-shadow: 5px 5px 10px rgb(78, 53, 39);
-  border-radius: 20%;
   display: inline-block;
   width: 250px;
 }
@@ -73,9 +70,24 @@ div {
   margin: 25px auto;
 }
 
+.listas li {
+  margin: 0 20px;
+}
+
+.listas {
+  padding: 20px;
+  margin: 20px 20px;
+}
+
+.bordas {
+  border: 2px double rgb(154, 132, 99);
+  box-shadow: 5px 5px 10px rgb(78, 53, 39);
+  border-radius: 20px;
+}
+
 #licoes_aprendidas {
   display: inline-block;
-  text-align: left
+  text-align:left;
 }
 
 #licoes_a_aprender {
@@ -133,4 +145,10 @@ div {
 
 #rodape abbr {
   text-decoration: underline;
+}
+
+@media (max-width:700px) {
+  body {
+    margin: 120px auto;
+  }
 }
