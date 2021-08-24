@@ -12,17 +12,17 @@
 <body>
   <header id="cabecalho">
     <h1 id="titulo">Meu Primeiro Projeto Trybe (Lessons Learned)</h1>
-    <nav id="menu">
-      <ul>
-        <li>Lições Aprendidas</li>
-        <li>Lições a Aprender</li>
-        <li>Artigo Aprendizado</li>
-        <li>Evolução do Aprendizado</li>
-        <li>Contato</li>
-      </ul>
-    </nav>
   </header>
-  <section>
+  <nav id="menu">
+    <ul>
+      <li><a href="#licoes_aprendidas">Lições Aprendidas</a></li>
+      <li><a href="#licoes_a_aprender">Lições a Aprender</a></li>
+      <li><a href="#aprendizado">Artigo Aprendizado</a></li>
+      <li><a href="#evolucao_aprendizado">Evolução do Aprendizado</a></li>
+      <li><a href="#rodape">Contato</a></li>
+    </ul>
+  </nav>
+  <section id="principal">
     <img id="minha_foto" src="Perfil.jpg" alt="Foto de Perfil">
     <ol id="licoes_aprendidas">
       <li>Introdução - Unix & Shell</li>
@@ -48,15 +48,45 @@
       <li>NodeJS</li>
       <li>Python</li>
     </ul>
+  <section>
+    <table>
+      <tr>
+        <td>Bloco 01: Unix & Bash</td>
+        <td>Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo</td>
+      </tr>
+      <tr>
+        <td>Bloco 02: Git, GitHUb e Internet</td>
+        <td>Bloco 07: Introdução à JavaScript ES6 e Testes Unitários</td>
+      </tr>
+      <tr>
+        <td>Bloco 03: Introdução à HTML e CSS</td>
+        <td>Bloco 08: Higher Order Functions do JavaScript ES6</td>
+      </tr>
+      <tr>
+        <td>Bloco 04: Introdução à JavaScript e Lógica de Programação</td>
+        <td>Bloco 09: JavaScript Assíncrono e Promises</td>
+      </tr>
+      <tr>
+        <td>Bloco 05: JavaScript: DOM, Eventos e Web Storage</td>
+        <td>Bloco 10: Testes automatizados com Jest</td>
+      </tr>
+    </table>
   </section>
-  <article>
+  </section>
+  <article id="aprendizado">
     <p>Meu aprendizado na Trybe tem sido de grande valor, seja ele em Hard Skills como Soft Skills.</p>
-    <p>Toda a esquipe que tem acompanhado nossas aulas seja nos momentos síncronos e asíncronos tem nos dado muita atenção gerando assim uma grande confiança no aprendizado. Em especial queria parabenizar a todos <em>Bernando</em>, <em>Costelinha</em>, <em>Sumoyama</em>, <em>Caique</em> e todos estutantes que estão presente comigo formando essa grande rede de <strong>colaboração</strong>!</p>
+    <p>Toda a esquipe que tem acompanhado nossas aulas seja nos momentos síncronos e asíncronos tem nos dado muita
+      atenção gerando assim uma grande confiança no aprendizado. Em especial queria parabenizar a todos
+      <em>Bernando</em>, <em>Costelinha</em>, <em>Sumoyama</em>, <em>Caique</em> e todos estutantes que estão presente
+      comigo formando essa grande rede de <strong>colaboração</strong>!</p>
   </article>
   <section>
-    <aside>
-      <p>A evolução no aprendizado na Trybe é maravilho, e tanto conteúdo e aulas que em 10 dias aprendi mais que meses estudando sózinho.</p>
-      <p>Começamos com <strong>Introdução ao Unix</strong>, <strong>Bash e Shell</strong>, passamos por <strong>Internet</strong>, <strong>Introdução a HTML</strong>, <strong>CSS e HTML Semântico</strong>. E a jornada está apenas começando!</p>
+    <aside id="evolucao_aprendizado">
+      <p>A evolução no aprendizado na Trybe é maravilho, e tanto conteúdo e aulas que em 10 dias aprendi mais que meses
+        estudando sózinho.</p>
+      <p>Começamos com <strong>Introdução ao Unix</strong>, <strong>Bash e Shell</strong>, passamos por
+        <strong>Internet</strong>, <strong>Introdução a HTML</strong>, <strong>CSS e HTML Semântico</strong>. E a
+        jornada está apenas começando!</p>
     </aside>
   </section>
   <footer id="rodape">
