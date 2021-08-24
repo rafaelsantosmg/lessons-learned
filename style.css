@@ -107,13 +107,13 @@ div {
   text-align: justify;
 }
 
-#aprendizado {
+.lado-esquerdo {
   max-width: 40%;
   display: inline-block;
   margin: 0 20px;
 }
 
-#sessao_artigo {
+.lado-direito {
   max-width: 40%;
   float: right;
   margin: 0 20px;
