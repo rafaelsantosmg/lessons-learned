@@ -1,35 +1,35 @@
 /* Arquivo de Estilização para Projeto Lessons Learned */
 body {
-  border          : 3px solid rgb(119, 110, 71);
-  box-shadow      : 5px 5px 10px rgb(78, 53, 39);
-  max-width       : 90%;
+  border: 3px solid rgb(119, 110, 71);
+  box-shadow: 5px 5px 10px rgb(78, 53, 39);
+  max-width: 90%;
   background-color: rgb(253, 251, 251);
-  margin          : 80px auto;
-  font-family     : Arial, Helvetica, sans-serif;
+  margin: 80px auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  color          : rgb(253, 251, 251);
-  font-weight    : 900;
+  color: rgb(253, 251, 251);
+  font-weight: 900;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color          : rgb(196, 151, 88);
+  color: rgb(196, 151, 88);
 }
 
 #cabecalho {
-  width           : 100%;
-  position        : fixed;
-  top             : 0;
-  left            : 0;
-  text-align      : center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
   background-color: rgb(78, 53, 39);
 }
 
 #cabecalho h1 {
-  color    : rgb(253, 251, 251);
+  color: rgb(253, 251, 251);
   font-size: 20pt;
 }
 
@@ -38,23 +38,23 @@ a:hover {
 }
 
 #menu ul {
-  margin          : 0;
+  margin: 0;
   background-color: rgb(99, 67, 40);
-  text-align      : left;
+  text-align: left;
   list-style-type : none;
-  padding         : 20px;
-  line-height     : 25px;
+  padding: 20px;
+  line-height: 25px;
 }
 
 #menu ul li a {
-  color          : rgb(253, 251, 251);
-  font-weight    : 900;
+  color: rgb(253, 251, 251);
+  font-weight: 900;
   text-decoration: none;
 }
 
 #menu ul li a:hover {
   text-decoration: underline;
-  color          : rgb(196, 151, 88);
+  color: rgb(196, 151, 88);
 }
 
 #principal {
@@ -62,15 +62,15 @@ a:hover {
 }
 
 #minha_foto {
-  margin : 20px;
+  margin: 20px;
   display: inline-block;
-  width  : 250px;
+  width: 250px;
 }
 
 div {
-  width       : 100%;
+  width: 100%;
   text-justify: auto;
-  margin      : 25px auto;
+  margin: 25px auto;
 }
 
 .listas li {
@@ -79,22 +79,22 @@ div {
 
 .listas {
   padding: 20px;
-  margin : 20px;
+  margin: 20px;
 }
 
 .bordas {
-  border       : 2px double rgb(154, 132, 99);
-  box-shadow   : 5px 5px 10px rgb(78, 53, 39);
+  border: 2px double rgb(154, 132, 99);
+  box-shadow: 5px 5px 10px rgb(78, 53, 39);
   border-radius: 20px;
 }
 
 #licoes_aprendidas {
-  display   : inline-block;
+  display: inline-block;
   text-align: left;
 }
 
 #licoes_a_aprender {
-  display   : inline-block;
+  display: inline-block;
   text-align: left;
 }
 
@@ -104,44 +104,44 @@ div {
 
 #tabela {
   margin: auto;
-  width : 95%;
+  width: 95%;
   border: 5px double rgb(119, 110, 71);
 }
 
 #tabela td {
   background-color: rgb(78, 53, 39);
-  color           : rgb(253, 251, 251);
-  text-align      : justify;
-  font-weight     : 900;
-  padding         : 5px;
-  border          : 1px solid rgb(119, 110, 71);
+  color: rgb(253, 251, 251);
+  text-align: justify;
+  font-weight: 900;
+  padding: 5px;
+  border: 1px solid rgb(119, 110, 71);
 }
 
 .lado-esquerdo {
-  max-width : 40%;
-  display   : inline-block;
-  margin    : 20px;
+  max-width: 40%;
+  display: inline-block;
+  margin: 20px;
   text-align: justify;
 }
 
 .lado-direito {
-  max-width   : 40%;
-  float       : right;
-  margin      : 20px;
+  max-width: 40%;
+  float: right;
+  margin: 20px;
   margin-right: 60px;
-  text-align  : justify;
+  text-align: justify;
 }
 
 #rodape {
-  width           : 70%;
-  margin          : auto;
-  border          : 5px double rgb(154, 86, 82);
-  box-shadow      : 5px 5px 10px rgb(78, 53, 39);
-  border-radius   : 20px;
+  width: 70%;
+  margin: auto;
+  border: 5px double rgb(154, 86, 82);
+  box-shadow: 5px 5px 10px rgb(78, 53, 39);
+  border-radius: 20px;
   background-color: rgb(78, 53, 39);
-  text-align      : center;
-  margin-bottom   : 20px;
-  color           : rgb(253, 251, 251);
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(253, 251, 251);
 }
 
 #rodape abbr {
