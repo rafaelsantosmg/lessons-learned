@@ -66,3 +66,19 @@ body {
   display: inline-block;
   width: 250px;
 }
+
+div {
+  width: 100%;
+  text-justify: auto;
+  margin: 25px auto;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  text-align: left
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  text-align: left;
+}
