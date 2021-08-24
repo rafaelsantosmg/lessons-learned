@@ -114,21 +114,19 @@ div {
   border: 1px solid rgb(119, 110, 71);
 }
 
-#artigos {
-  width: 95%;
-  text-align: justify;
-}
-
 .lado-esquerdo {
   max-width: 40%;
   display: inline-block;
-  margin: 0 20px;
+  margin: 20px 20px;
+  text-align: justify;
 }
 
 .lado-direito {
   max-width: 40%;
   float: right;
-  margin: 0 20px;
+  margin: 20px;
+  margin-right: 60px;
+  text-align: justify;
 }
 
 #rodape {
@@ -150,5 +148,9 @@ div {
 @media (max-width:700px) {
   body {
     margin: 120px auto;
+  }
+
+  .lado-direito {
+    margin-right: 20px;
   }
 }
