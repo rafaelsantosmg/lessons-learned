@@ -92,10 +92,6 @@ a:hover {
   text-align: left;
 }
 
-#sessao_tabela {
-  
-}
-
 #tabela {
   margin: 10px auto;
   width: 95%;
@@ -156,10 +152,7 @@ a:hover {
 @media ( max-width : 700px ) {
 
   body {
-    margin-top: 130px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin: 130px auto 10px;
   }
 
   .lado-esquerdo {
@@ -168,7 +161,7 @@ a:hover {
     margin: 20px;
     text-align: justify;
   }
-  
+
   .lado-direito {
     max-width: 100%;
     float: right;
