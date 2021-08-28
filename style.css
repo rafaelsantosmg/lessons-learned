@@ -62,15 +62,9 @@ a:hover {
 }
 
 #minha_foto {
-  margin: 20px;
-  display: inline-block;
+  margin: 20px auto;
+  display: block;
   width: 250px;
-}
-
-div {
-  width: 100%;
-  text-justify: auto;
-  margin: 25px auto;
 }
 
 .listas li {
@@ -99,11 +93,11 @@ div {
 }
 
 #sessao_tabela {
-  margin: 10px auto;
+  
 }
 
 #tabela {
-  margin: auto;
+  margin: 10px auto;
   width: 95%;
   border: 5px double rgb(119, 110, 71);
 }
@@ -144,6 +138,17 @@ div {
   color: rgb(253, 251, 251);
 }
 
+#rodape ul {
+  list-style-type : none;
+}
+
+#rodape ul li {
+  padding-left: 10px;
+  padding-right: 20px;
+  margin: auto;
+  display: inline-block;
+}
+
 #rodape abbr {
   text-decoration: underline;
 }
@@ -151,10 +156,34 @@ div {
 @media ( max-width : 700px ) {
 
   body {
-    margin: 120px auto;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
   }
 
+  .lado-esquerdo {
+    max-width: 100%;
+    display: inline-block;
+    margin: 20px;
+    text-align: justify;
+  }
+  
   .lado-direito {
-    margin-right: 20px;
+    max-width: 100%;
+    float: right;
+    margin: 20px;
+    margin-right: 60px;
+    text-align: justify;
+  }
+
+  #rodape {
+    clear: both;
+  }
+
+  #rodape ul {
+    padding: 0;
+    list-style-type : none;
+    margin: auto;
   }
 }
